@@ -1,3 +1,5 @@
+using System.Security.Cryptography.X509Certificates;
+
 namespace JogoDaVelha
 {
     public partial class Form1 : Form
@@ -81,6 +83,7 @@ namespace JogoDaVelha
                  * zzz
                  */
                 lblinfo.Text = $"O vencedor é {btn11.Text}";
+                DesabilitarTudo();
             }
             else if (btn21.Text == btn22.Text && btn22.Text == btn23.Text && btn21.Text != "")
             {
@@ -89,6 +92,7 @@ namespace JogoDaVelha
                  * zzz
                  */
                 lblinfo.Text = $"O vencedor é {btn21.Text}";
+                DesabilitarTudo();
             }
             else if (btn31.Text == btn32.Text && btn32.Text == btn33.Text && btn31.Text != "")
             {
@@ -97,6 +101,7 @@ namespace JogoDaVelha
                  * ---
                  */
                 lblinfo.Text = $"O vencedor é {btn31.Text}";
+                DesabilitarTudo();
             }
             else if (btn11.Text == btn21.Text && btn21.Text == btn31.Text && btn11.Text != "")
             {
@@ -105,6 +110,7 @@ namespace JogoDaVelha
                  * -zz
                  */
                 lblinfo.Text = $"O vencedor é {btn11.Text}";
+                DesabilitarTudo();
             }
             else if (btn12.Text == btn22.Text && btn22.Text == btn32.Text && btn12.Text != "")
             {
@@ -113,6 +119,7 @@ namespace JogoDaVelha
                  * z-z
                  */
                 lblinfo.Text = $"O vencedor é {btn12.Text}";
+                DesabilitarTudo();
             }
             else if (btn13.Text == btn23.Text && btn23.Text == btn33.Text && btn13.Text != "")
             {
@@ -121,6 +128,7 @@ namespace JogoDaVelha
                  * zz-
                  */
                 lblinfo.Text = $"O vencedor é {btn13.Text}";
+                DesabilitarTudo();
             }
             else if (btn11.Text == btn22.Text && btn22.Text == btn33.Text && btn11.Text != "")
             {
@@ -129,6 +137,7 @@ namespace JogoDaVelha
                  * zz-
                  */
                 lblinfo.Text = $"O vencedor é {btn11.Text}";
+                DesabilitarTudo();
             }
             else if (btn13.Text == btn22.Text && btn22.Text == btn31.Text && btn13.Text != "")
             {
@@ -137,12 +146,28 @@ namespace JogoDaVelha
                  * -zz
                  */
                 lblinfo.Text = $"O vencedor é {btn13.Text}";
+                DesabilitarTudo();
             }//verificar se deu velha:
             else if(btn11.Enabled && btn12.Enabled && btn13.Enabled && btn21.Enabled && btn22.Enabled && btn23.Enabled && btn31.Enabled && btn32.Enabled
                 && btn33.Enabled)
             {
                 lblinfo.Text = "Empate!";
             }
+           
+        }
+        public void DesabilitarTudo()
+        {
+            // Irá desabilitar todos os botões quando houver um vencedor
+            // Para Inpedir que o jogo continue
+            btn11.Enabled = false;
+            btn11.Enabled = false;
+            btn13.Enabled = false;
+            btn21.Enabled = false;
+            btn22.Enabled = false;
+            btn23.Enabled = false;
+            btn31.Enabled = false;
+            btn32.Enabled = false;
+            btn33.Enabled = false;
         }
     }
 }
