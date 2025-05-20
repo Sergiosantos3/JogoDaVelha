@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\sergio.omsantos\\source\\repos\\JogoDaVelha\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E24D0256-FF08-41B0-AECA-C49153883777}|JogoDaVelha\\JogoDaVelha.csproj|c:\\users\\sergio.omsantos\\source\\repos\\jogodavelha\\jogodavelha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E24D0256-FF08-41B0-AECA-C49153883777}|JogoDaVelha\\JogoDaVelha.csproj|solutionrelative:jogodavelha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E24D0256-FF08-41B0-AECA-C49153883777}|JogoDaVelha\\JogoDaVelha.csproj|c:\\users\\sergio.omsantos\\source\\repos\\jogodavelha\\jogodavelha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E24D0256-FF08-41B0-AECA-C49153883777}|JogoDaVelha\\JogoDaVelha.csproj|solutionrelative:jogodavelha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24D0256-FF08-41B0-AECA-C49153883777}|JogoDaVelha\\JogoDaVelha.csproj|c:\\users\\sergio.omsantos\\source\\repos\\jogodavelha\\jogodavelha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E24D0256-FF08-41B0-AECA-C49153883777}|JogoDaVelha\\JogoDaVelha.csproj|solutionrelative:jogodavelha\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\JogoDaVelha\\JogoDaVelha\\Form1.cs",
               "RelativeDocumentMoniker": "JogoDaVelha\\Form1.cs",
               "ToolTip": "C:\\Users\\sergio.omsantos\\source\\repos\\JogoDaVelha\\JogoDaVelha\\Form1.cs",
               "RelativeToolTip": "JogoDaVelha\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T17:21:30.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\JogoDaVelha\\JogoDaVelha\\Form1.cs",
               "RelativeDocumentMoniker": "JogoDaVelha\\Form1.cs",

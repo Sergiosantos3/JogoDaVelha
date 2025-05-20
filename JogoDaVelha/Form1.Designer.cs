@@ -58,6 +58,7 @@
             btn21.Size = new Size(92, 83);
             btn21.TabIndex = 3;
             btn21.UseVisualStyleBackColor = true;
+            btn21.Click += Jogada_Click;
             // 
             // btn31
             // 
@@ -68,6 +69,7 @@
             btn31.Size = new Size(92, 83);
             btn31.TabIndex = 5;
             btn31.UseVisualStyleBackColor = true;
+            btn31.Click += Jogada_Click;
             // 
             // btn32
             // 
@@ -78,6 +80,7 @@
             btn32.Size = new Size(92, 83);
             btn32.TabIndex = 6;
             btn32.UseVisualStyleBackColor = true;
+            btn32.Click += Jogada_Click;
             // 
             // btn33
             // 
@@ -88,6 +91,7 @@
             btn33.Size = new Size(92, 83);
             btn33.TabIndex = 7;
             btn33.UseVisualStyleBackColor = true;
+            btn33.Click += Jogada_Click;
             // 
             // pictureBox2
             // 
@@ -108,7 +112,7 @@
             btn22.Size = new Size(92, 83);
             btn22.TabIndex = 4;
             btn22.UseVisualStyleBackColor = true;
-            btn22.Click += button3_Click;
+            btn22.Click += Jogada_Click;
             // 
             // btn12
             // 
@@ -119,6 +123,7 @@
             btn12.Size = new Size(92, 83);
             btn12.TabIndex = 1;
             btn12.UseVisualStyleBackColor = true;
+            btn12.Click += Jogada_Click;
             // 
             // btn23
             // 
@@ -129,6 +134,7 @@
             btn23.Size = new Size(92, 83);
             btn23.TabIndex = 4;
             btn23.UseVisualStyleBackColor = true;
+            btn23.Click += Jogada_Click;
             // 
             // btn13
             // 
@@ -139,6 +145,7 @@
             btn13.Size = new Size(92, 83);
             btn13.TabIndex = 2;
             btn13.UseVisualStyleBackColor = true;
+            btn13.Click += Jogada_Click;
             // 
             // btn11
             // 
@@ -149,6 +156,7 @@
             btn11.Size = new Size(92, 83);
             btn11.TabIndex = 0;
             btn11.UseVisualStyleBackColor = true;
+            btn11.Click += Jogada_Click;
             // 
             // pictureBox1
             // 
@@ -169,6 +177,7 @@
             pibFechar.SizeMode = PictureBoxSizeMode.Zoom;
             pibFechar.TabIndex = 10;
             pibFechar.TabStop = false;
+            pibFechar.Click += pibFechar_Click;
             // 
             // PibReiniciar
             // 
@@ -179,11 +188,13 @@
             PibReiniciar.SizeMode = PictureBoxSizeMode.Zoom;
             PibReiniciar.TabIndex = 11;
             PibReiniciar.TabStop = false;
+            PibReiniciar.Click += PibReiniciar_Click;
             // 
             // lblinfo
             // 
             lblinfo.AutoSize = true;
             lblinfo.Font = new Font("Comic Sans MS", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblinfo.ForeColor = Color.Red;
             lblinfo.Location = new Point(12, 535);
             lblinfo.Name = "lblinfo";
             lblinfo.Size = new Size(286, 67);
